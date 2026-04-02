@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","0","@Web Placing order","firefox","2026-04-02","skipped","2026-04-02","","ClientAppPO.spec.ts","",""
+"","30448","@Web Shopping from Cart for Adidas Orignals","firefox","2026-04-02","broken","2026-04-02","","ClientAppPO.spec.ts","",""
+"","7979","@Web Shopping from Cart for ZARA COAT 3","firefox","2026-04-02","passed","2026-04-02","","ClientAppPO.spec.ts","",""
+"","6864","@Web Placing order","chromium","2026-04-02","passed","2026-04-02","","ClientAppPO.spec.ts","",""
+"","7409","@Web Shopping from Cart for ZARA COAT 3","chromium","2026-04-02","passed","2026-04-02","","ClientAppPO.spec.ts","",""
+"","32522","@Web Shopping from Cart for Adidas Orignals","chromium","2026-04-02","broken","2026-04-02","","ClientAppPO.spec.ts","",""

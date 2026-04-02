@@ -1,0 +1,20 @@
+{
+  "name": "playwrighttsframework",
+  "version": "1.0.0",
+  "description": "Playwright Framework with Typescript",
+  "main": "index.js",
+  "scripts": {
+    "regression": "npx playwright test",
+    "webTest": "npx playwright test --grep \"@Web\"",
+    "firefoxTest": "npx playwright test --project=firefox",
+    "chromeTest":"npx playwright test --project=chromium",
+    "allureRun": "allure generate ./allure-results --clean && allure open"
+  },
+  "author": "Arunima",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.59.0",
+    "@types/node": "^25.5.0",
+    "allure-playwright": "^3.6.0"
+  }
+}
