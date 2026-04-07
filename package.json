@@ -8,6 +8,7 @@
     "webTest": "npx playwright test --grep \"@Web\"",
     "firefoxTest": "npx playwright test --project=firefox",
     "chromeTest":"npx playwright test --project=chromium",
+    "loginTest": "npx playwright test tests/LoginPagePractise.spec.ts --project=chromium",
     "allureRun": "allure generate ./allure-results --clean && allure open"
   },
   "author": "Arunima",
