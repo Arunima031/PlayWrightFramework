@@ -23,10 +23,11 @@ export default defineConfig({
 
   projects: [
     {
-      name: 'chromium',
+      name: 'Chrome',
       use: {
         browserName: 'chromium',
         ignoreHTTPSErrors: true,
+        channel:'chrome',
         permissions: ['geolocation'],
         video: 'retain-on-failure',
         ...devices['Desktop Chrome']
@@ -48,5 +49,14 @@ export default defineConfig({
       name: 'webkit',
       use: { ...devices['Desktop Safari'] },
     },
+
+    {
+      name: 'Edge',
+      use: {
+        browserName: 'chromium',
+        channel: 'msedge',
+        headless:false
+      },
+    }
   ],
 });

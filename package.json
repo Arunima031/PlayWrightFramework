@@ -7,9 +7,10 @@
     "regression": "npx playwright test",
     "webTest": "npx playwright test --grep \"@Web\"",
     "firefoxTest": "npx playwright test --project=firefox",
-    "chromeTest":"npx playwright test --project=chromium",
-    "loginTest": "npx playwright test tests/LoginPagePractise.spec.ts --project=chromium",
-    "allureRun": "allure generate ./allure-results --clean && allure open"
+    "chromeTest":"npx playwright test --project=Chrome",
+    "loginTest": "npx playwright test tests/LoginPagePractise.spec.ts --project=Chrome",
+    "allureRun": "allure generate ./allure-results --clean && allure open",
+    "edgeTest":"npx playwright test tests/LoginPagePractise.spec.ts --project=Edge"
   },
   "author": "Arunima",
   "license": "ISC",
